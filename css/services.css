@@ -1,0 +1,60 @@
+html{
+    --color-secondary: #0246dd;
+    --color-para-light: #64728f;
+    --color-black: #010f2e;
+    --color-blue-light:#c8d7f6;
+    --color-border-grey: rgb(227, 224, 224);
+    --color-background-blue-light: #dae5fa;
+    ---color-light: #F2F8FB;
+    --font-family--plus-jakarata: "plus jakarata sans", sans-serif;
+    --box-shadow: 6px 0 15px 2px rgba(0, 0, 0, 0.5) /*  to the right */,
+      0px 6px 15px 2px rgba(0, 0, 0, 0.5) /* to the bottom */,
+      -6px 0px 15px -0px rgba(255, 255, 255, 0.1) /* to the left */,
+      0px -6px 15px -0px rgba(255, 255, 255, 0.1);
+    --border-radius: 10px;
+    --border-radius1:1rem;
+    --font-light: #858689;
+    --box-shadow-blue: 1rem 1rem 2rem rgba(21, 81, 232, 0.38);
+    --box-shadow-blue-socials: 0.1rem 0.1rem 3rem rgba(4, 22, 67, 0.482);
+}
+body{
+    font-family: var(--font-family--plus-jakarata);
+}
+
+
+.ser-hhead{
+    width: 55%;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.ser-p-head{
+    color: var(---color-light);
+    padding: 0.6rem 1rem;
+    background-color: var(--color-secondary);
+    width: fit-content;
+    margin: 2rem auto;
+    border-radius: var(--border-radius1);
+    font-size: 1.046rem;
+    text-transform: uppercase;
+}
+
+.ser-hhead h1{
+    font-size: 2.5rem;
+    color: var(--color-black);
+    margin: 0 auto 1.2rem;
+}
+
+.p-head {
+    color: var(--color-para-light);
+    font-size: 1.2rem;
+}
+
+.service-cont .cont-ser-cont{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.cont-service1 p span{
+    font-weight: 550;
+}
