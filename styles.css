@@ -111,7 +111,7 @@ nav {
 }
 
 header {
-  background: url(images/Headerimg.jpg) no-repeat center/cover;
+  background: url(/Images/Headerimg.jpg) no-repeat center/cover;
   height: 90vh;
   /* display: flex;
     justify-content: left; */

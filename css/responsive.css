@@ -251,7 +251,7 @@ html {
   }
 
   header {
-    height: 55vh;
+    height: 58vh;
   }
   .headline {
     width: 90%;
@@ -272,7 +272,7 @@ html {
   }
 
   .stats {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1.2rem;
   }
   .cont-stat h1 {
@@ -286,7 +286,9 @@ html {
   .about-info {
     grid-template-columns: 1fr;
   }
-
+  .about-info-img{
+    height: 25rem;
+  }
 
 
 
@@ -311,7 +313,7 @@ html {
 
   .slide {
     grid-template-columns: 1fr;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
 
@@ -330,11 +332,19 @@ html {
   }
   .faq-cont {
     width: 90%;
+    margin: 1rem auto;
   }
+
   .faq-contact {
     width: 80%;
     margin: 1rem auto;
   }
+
+  .question-cont{
+    margin: 1rem auto 1rem;
+    width: 80%;
+}
+
 
 
 
@@ -457,6 +467,16 @@ html {
     margin: 1rem auto;
     width: 90%;
 }
+
+.slide-con{
+    height: fit-content;
+}
+
+.slide-con p {
+    font-size: 0.875rem;
+}
+
+
 
 
 
