@@ -18,7 +18,14 @@ html {
   --box-shadow-blue-socials: 0.1rem 0.1rem 3rem rgba(4, 22, 67, 0.482);
 }
 
+body{
+    overflow-x: hidden;
+}
+
 @media screen and (min-width: 220px) and (max-width: 1160px) {
+
+
+    
   /* header header header */
   header {
     height: 70vh;
@@ -47,6 +54,7 @@ html {
 
   .stats {
     gap: 1rem;
+    grid-template-columns: 1fr 1fr;
     width: 90%;
     padding: 1.5rem 1rem;
   }
@@ -245,7 +253,17 @@ html {
 
 /* mobile res mobile  */
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 600px) {
+
+
+    *{
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .logo img{
+        height: 2.65rem;
+    }
   nav {
     padding: 1rem 1rem;
   }
@@ -265,15 +283,18 @@ html {
 
   .tagline {
     text-align: center;
+    font-size: 1rem;
   }
 
   .header-cta {
-    margin: -1rem auto;
+    margin: -2rem auto;
   }
 
   .stats {
     grid-template-columns: 1fr;
     gap: 1.2rem;
+    margin: -1rem auto 4rem;
+    width: 95%;
   }
   .cont-stat h1 {
     font-size: 2.2rem;
@@ -303,6 +324,7 @@ html {
   .case-cont {
     grid-template-columns: 1fr;
     padding: 2rem 2rem;
+    width: 100%;
   }
 
   .ser-head {
@@ -331,18 +353,20 @@ html {
     margin: 3rem auto;
   }
   .faq-cont {
-    width: 90%;
+    width: 100%;
     margin: 1rem auto;
   }
 
   .faq-contact {
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
   }
-
+.client{
+    width: 95%;
+}
   .question-cont{
     margin: 1rem auto 1rem;
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -351,15 +375,17 @@ html {
   .subscribe-banner {
     height: 45vh;
     grid-template-columns: 1fr;
+    width: 90%;
     margin: 2rem auto 4rem;
   }
   .sub-banner-txt h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
   .sub-banner-txt p{
     text-align: center;
+    font-size: 1rem;
   }
 
   .sub-btn{
@@ -383,6 +409,12 @@ html {
   .copy-page{
     margin: 10rem 0 0;
   }
+  .copy-pages{
+    margin: 0.5rem auto;
+  }
+  .copy-pages a{
+    padding: 0 0.5rem;
+  }
 
   .copyright{
     grid-template-columns: 1fr;
@@ -396,6 +428,11 @@ html {
 
   .rights{
     text-align: center;
+  }
+
+  .move-top{
+    right: 1rem;
+    bottom: 0.4rem;
   }
 
 
@@ -429,10 +466,15 @@ html {
 
 .ab-faq-cont{
     margin-right: 0;
-    width: 90%;
+    width: 100%;
 }
 .ab-faq{
     margin: 2rem auto;
+}
+
+.ab-question-cont{
+    margin: 0 auto 1rem;
+    width: 100%;
 }
 
 .cont-ser-cont{
@@ -465,7 +507,8 @@ html {
 
 .form-container{
     margin: 1rem auto;
-    width: 90%;
+    width: 100%;
+    padding: 0.5rem 1rem 2rem;
 }
 
 .slide-con{
@@ -475,6 +518,27 @@ html {
 .slide-con p {
     font-size: 0.875rem;
 }
+
+.contact-form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-asideComment{
+    margin-left: 0;
+}
+
+.form-email{
+    grid-template-columns: 1fr;
+}
+
+
+/* border box resixing border box resixing
+        border box resixing border box resixing
+                border box resixing border box resixing */
+
+                
+                
 
 
 
